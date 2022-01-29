@@ -27,38 +27,22 @@ h1 {
   text-decoration: underline dotted white;
 }
 
-dt {
-  font-family: 'Yeseva One', cursive;
-  font-size: 50px;
-  text-align: center;
-  color: #E29578;
+h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #E29578;
 }
 
-dd {
+p {
   font-family: 'Arsenal', sans-serif;
   font-size: 20px;
-  text-align: center;
   color: #7f5539;
-  margin-left: -12px;
-  margin-top: 10px;
+  text-align: center;
 }
 
-a:link {
-		color: brown;
-    text-decoration: none;
+.box {
+    inline-size: 700px;
+    overflow-wrap: break-word;
+    margin: auto;
 }
-a:visited {
-		color: #7f5454;
-	}
-a:hover {
-		color: #D96F45;
-		background-color: #fff;
-	}
-a:focus {
-		color: #bd7d7d;
-		background-color: #fff;
-	}
-a:active {
-		color: #624141;
-		background-color: #fff;
-	}
