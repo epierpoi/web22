@@ -1,0 +1,50 @@
+body {
+  background-color: #ff8fab;
+  margin: 0;
+  font-size: 30px;
+  font-family:'Fredoka One', cursive;
+}
+p {
+  letter-spacing: 2px;
+  color: #ffc2d1;
+  text-align: center;
+  line-height: .1em;
+}
+
+img {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+.bigger {
+  font-size: 3em;
+  padding-top: .2em;
+  padding-bottom: .2em
+}
+div {
+  margin-top: 25vh;
+}
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #ffb3c6;
+  }
+  p {
+    color: #fb6f92;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+
+
+  }
+}
